@@ -12,7 +12,7 @@ $(document).ready(function() {
 
   if (personality === "risk" && ideal === "adventurous" && people === "few" && shoes === "hiking") {
       place = "Kilimanjaro, Tanzania";
-    } else if (personality === "peaceful" && ideal === "mysterious" && people === "few" && food === "veggies") {
+    } else if (personality === "peaceful" && ideal === "mysterious" && food === "veggies") {
       place = "Goa, India";
     } else if (personality === "busy" && ideal === "educational" && schedule === "planned") {
       place = "London, UK";
@@ -25,15 +25,38 @@ $(document).ready(function() {
   } else if (personality === "busy" && people === "lot" && item === "camera") {
     place = "Tokyo, Japan";
 } else if (item === "makeup" && food === "restaurants" && shoes === "dress") {
-    place = "Milan, Italy";
+    place = "Paris, France";
 } else if (ideal = "adventurous" && item === "camera" && food === "veggies") {
     place = "Tropical forests of Costa Rica";
-  } else if (personality === "risktaker" && people === "lot") {
+  } else if (personality === "risk" && people === "lot") {
     place = "Bangkok, Thailand";
-  } else if (personality === "risktaker" && people === "few") {
+  } else if (personality === "risk" && people === "few") {
     place = "'The Door to Hell', Derweze, Ahal Province, Turkmenistan";
-  }
-  }
+  } else if (personality === "peaceful" && people === "lot") {
+    place = "Great Wall of China";
+  } else if (personality === "busy" && people === "few") {
+    place = "Dubai, United Arab Emirates";
+  } else if (personality === "fun" && people === "few") {
+    place = "Stockholm, Sweden";
+  } else if (ideal === "adventurous" && people === "few") {
+      place = "Easter Island";
+    } else if (ideal === "relaxing" && people === "lot") {
+      place = "Cancun, Mexico";
+    } else if (ideal === "educational" && people === "lot") {
+      place = "Rome, Italy";
+    } else if (ideal === "educational" && people === "few") {
+      place = "Muiden, Neatherlands"
+    } else if (ideal === "mysterious" && people === "lot") {
+      place = "Machu Pechu, Peru";
+    } else if (item === "camera" && people === "lot") {
+       place = "Singapore";
+  } else if (shoes === "hiking") {
+      place = "Nunavut, Canada";
+    } else if (shoes === "flip") {
+     place = "Maui, Hawaii";
+   } else if (shoes === "dress") {
+     place = "New York, New York";
+    } else {
       place = "Stay home";
     }
 
