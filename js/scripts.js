@@ -50,12 +50,6 @@ $(document).ready(function() {
       place = "Machu Pechu, Peru";
     } else if (item === "camera" && people === "lot") {
        place = "Singapore";
-  } else if (shoes === "hiking") {
-      place = "Nunavut, Canada";
-    } else if (shoes === "flip") {
-     place = "Maui, Hawaii";
-   } else if (shoes === "dress") {
-     place = "New York, New York";
     } else {
       place = "Stay home";
     }
