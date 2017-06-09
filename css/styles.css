@@ -2,13 +2,96 @@
   display:none;
 }
 
-
-
-
 h1 {
   font-family: monospace;
 }
 p {
   font-family: serif;
   font-size: 25px;
+}
+
+#tanzania {
+  display:none;
+}
+
+#goa {
+  display:none;
+}
+
+#london {
+  display:none;
+}
+
+#rio {
+  display:none;
+}
+
+#berlin {
+  display:none;
+}
+
+#tahiti{
+  display:none;
+}
+
+#tokyo {
+  display:none;
+}
+
+#paris {
+  display:none;
+}
+
+#costa {
+  display:none;
+}
+
+#bangkok {
+  display:none;
+}
+
+#nunavut {
+  display:none;
+}
+
+#china {
+  display:none;
+}
+
+#dubai {
+  display:none;
+}
+
+#stockholm {
+    display:none;
+}
+
+#easter{
+    display:none;
+}
+#cancun{
+    display:none;
+}
+#rome{
+    display:none;
+}
+#muiden{
+    display:none;
+}
+#peru{
+    display:none;
+}
+#singapore{
+    display:none;
+}
+#maui{
+    display:none;
+}
+
+#manhattan {
+    display:none;
+}
+
+#cottage{
+    display:none;
 }
