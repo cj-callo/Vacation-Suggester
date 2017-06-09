@@ -31,7 +31,7 @@ $(document).ready(function() {
   } else if (personality === "risk" && people === "lot") {
     place = "Bangkok, Thailand";
   } else if (personality === "risk" && people === "few") {
-    place = "'The Door to Hell', Derweze, Ahal Province, Turkmenistan";
+    place = "Nunkatu, Canada";//check spelling
   } else if (personality === "peaceful" && people === "lot") {
     place = "Great Wall of China";
   } else if (personality === "busy" && people === "few") {
@@ -50,16 +50,25 @@ $(document).ready(function() {
       place = "Machu Pechu, Peru";
     } else if (item === "camera" && people === "lot") {
        place = "Singapore";
+    } else if (shoes === "flip") {
+      place = "Maui, Hawaii";
+    } else if (shoes === "dress") {
+      place = "Manhattan, New York";
     } else {
-      place = "Stay home";
+      place = "uuh..stay home!";
     }
 
+  $("#place").text(place);
+  $("#result").show();
 
-    $("#place").text(place);
-    $("#result").show();
+  //blank form submission functions not working, taken out, need to fix
+
   event.preventDefault();
+
+  });
 });
-});
+
+
 
 
 
