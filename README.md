@@ -20,7 +20,7 @@ Set-up of Git and creation of GitHub repository
 Download Boostrap stylesheet
 Download latest Jquery library
 Usage of javascript/jquery strings, forms, functions, methods
-
+Images from Pexels.com
 
 Known Bugs
 Section requesting user to "Enter" "name & "hometown" is currently non-functional
